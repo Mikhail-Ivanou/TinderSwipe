@@ -152,7 +152,8 @@ public class FlingCardListener implements View.OnTouchListener {
 
                 // Move the frame
                 aPosX += dx;
-                aPosY += dy;
+                //TODO move disabling dY to params
+//                aPosY += dy;
 
                 // calculate the rotation degrees
                 float distobjectX = aPosX - objectX;
